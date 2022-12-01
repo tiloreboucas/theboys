@@ -16,10 +16,10 @@
   $result_usuario = "INSERT INTO cadastro(email, senha, nome, sobrenome) VALUES ('$email', '$senha', '$nome', '$sobrenome', '$data_nascimento')";
   $resultado_usuario = mysqli_query($conn, $result_usuario);
   
-  if(mysqli_insert_id($conn){
-	  $_SESSION['msg'] = "<p styles='color:green;'>usuário cadastrado com sucesso</p>";
+  if(mysqli_insert_id($conn)){
+	  $_SESSION['msg']="<p styles='color:green;'>usuário cadastrado com sucesso</p>";
 	  header("location: form.php");
-  }else{ 
-   $_SESSION['msg'] = "<p styles='color:red;'>usuário não foi cadastrado com sucesso</p>";
-	header("location: form.php");
-   
+  } else {
+	  $_SESSION['msg'] = "<p styles='color:red;'>usuário não foi cadastrado com sucesso</p>";
+	  header("location: form.php");
+  }
