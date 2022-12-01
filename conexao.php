@@ -1,7 +1,7 @@
 <?php
 	$servidor = "localhost";
 	$usuario = "root";
-	$senha = "usbw"
+	$senha = "usbw";
 	$dbname = "form_theboys";
 	
 	// criar a conexão
