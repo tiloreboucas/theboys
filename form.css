@@ -20,7 +20,7 @@
 
 header {
   display: block;
-  position: absolute;
+  /* position: absolute; */
   margin: auto;
   width: 480px;
   padding: 28px;
@@ -63,7 +63,7 @@ fieldset {
   display: block;
   width: 100%;
   border-style: none;
-  margin-top: 195px;
+  /* margin-top: 195px; */
 }
 
 input {
@@ -88,4 +88,12 @@ button {
   font-family: "Roboto codensed", sans-serif;
   border-radius: 3px;
   cursor: pointer;
+}
+
+.fullForm > header {
+  padding-bottom: 0;
+}
+
+.fullForm header + form {
+  padding-top: 0;
 }

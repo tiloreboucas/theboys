@@ -36,7 +36,7 @@
       <fieldset>
         <div class="mail">
           <label for="email"></label>
-          <input type="email" id="email" name="Endereço e-mail" placeholder="Endereço de e-mail" required />
+          <input type="email" id="email" name="email" placeholder="Endereço de e-mail" required />
         </div>
         <div class="pass">
           <label for="senha"></label>
@@ -44,17 +44,17 @@
         </div>
         <div class="name">
           <label for="nome"></label>
-          <input type="text" id="nome" name="Nome" placeholder="Nome" required />
+          <input type="text" id="nome" name="nome" placeholder="Nome" required />
         </div>
         <div class="second-name">
           <label for="sobre"></label>
-          <input type="text" id="sobre" name="Sobrenome" placeholder="SobreNome" />
+          <input type="text" id="sobre" name="sobrenome" placeholder="SobreNome" />
         </div>
         <div class="time">
           <label for="data"></label>
-          <input type="datetime" id="data" name="Data de nascimento" placeholder="Data de nascimento" />
+          <input type="date" id="data" name="nascimento" placeholder="Data de nascimento" />
           <button id="button" type="submit">
-            <a href="index.html">Junte-se a nós</a>
+            Junte-se a nós
           </button>
         </div>
       </fieldset>
