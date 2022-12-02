@@ -33,9 +33,9 @@ CREATE TABLE `cadastro` (
   `id` int(11) NOT NULL,
   `email` varchar(140) NOT NULL,
   `senha` varchar(16) NOT NULL,
-  `nome` text NOT NULL,
-  `sobrenome` int(140) NOT NULL,
-  `data de nascimento` date NOT NULL
+  `nome` varchar(32) NOT NULL,
+  `sobrenome` varchar(32) NOT NULL,
+  `nascimento` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
